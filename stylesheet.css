@@ -1,0 +1,22 @@
+body{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'IM Fell English SC', serif;
+  color: red;
+  border-radius: 100px;
+  border:  navy solid;
+  border-width: 10px;
+
+
+}
+h2{
+color: navy;
+}
+h3{
+  color: navy;
+  text-decoration: underline;
+}
+.form{
+  color: navy;
+  font-weight: 900;
+}
