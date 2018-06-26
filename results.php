@@ -52,7 +52,7 @@ if (!$mysqli) {
 }
 
 #Insert data into table "Ballot"
- $insert = "INSERT INTO b_names (`FName`,`LName`,`City`,`State`) VALUES ('$data','$data1','$data2', '$data3')";
+ $insert = "INSERT INTO ballot (`FName`,`LName`,`City`,`State`) VALUES ('$data','$data1','$data2', '$data3')";
 
  if (mysqli_query($mysqli, $insert) && !empty($fname && $lname && $city && $state)) {
      echo "New record created successfully" . '<br>';
@@ -77,7 +77,7 @@ else {
 }
 
 # Selecting from the MySQL Database
-$sql = "SELECT ID, FName, LName, City, State FROM b_names";
+$sql = "SELECT ID, FName, LName, City, State FROM ballot";
 
 #Bring the data back from the MySQL $database
 
